@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS BOOTSTRAP-->
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <!--STYLE CSS-->
+    <link rel="stylesheet" href="../css/style.css">
+    <!--FONT AWESOME ICONS-->
+    <link rel="stylesheet" href="../fontaws/css/all.min.css">
+    <!--JS INDEX-->
+    <script src="../js/index.js" defer></script>
+    <!--JS BOOTSTRAP-->
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <title>Portfolio Luiz Eduardo Junqueira</title>
+</head>
+<body>
+    <!--HEADER NAVBAR-->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link page-name" id="home" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item" id="nav-item-sobre-mim">
+                            <a class="nav-link page-name" id="sobre-mim" aria-current="page" href="#">Sobre mim</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link page-name" id="skills" aria-current="page" href="#">Habilidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link page-name" id="projects" aria-current="page" href="#">Projetos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--HEADER REDES SOCIAIS-->
+        <li id="redes-sociais">
+            <a href="https://github.com/Lesants-dev" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJvmZfwndmfqwxJGQKRQksNsKKGDRXTcrgBkzXggCXnPlvbHwkFZfBWRLzvtHJrmfsDbdQV" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+        </li>
+    </header>
+    <!--MENSAGEM DE BEM VINDO-->
+    <div class="container mt-5 text-home">
+        <h1 id="h1-home" class="pt-2 pb-4">Bem vindo!</h1>
+        <p class="paragraph fs-2 mt-5 ps-1 pe-2" id="paragraph-home">Olá, me chamo Luiz e sou desenvolvedor front-end. 
+        Criei esse site para contar um pouco sobre mim e mostrar minhas habilidades e os projetos em que
+        trabalhei ou estou trabalhando no momento. Se acomode e fique a vontade! <!--emoji sorrindo-->
+        </p>
+    </div>
+
+    <!--SOBRE MIM-->
+    <h2 class="text-home title-section" id="sobre-mim-title">Sobre mim</h2>
+    <div class="container" id="sobre-mim-container" tabindex="-1">
+        <div class="card mb-3 mx-auto bg-dark" id="sobre-mim-card">
+            <div class="row g-0 card-sobre-mim">
+                <div class="col-md-3">
+                    <img src="../image/teste perfil.jpeg" class="img-fluid rounded-start mb-2" id="image-perfil" alt="image-perfil">
+                </div>
+                <div class="col-md-9">
+                    <div class="card-body card-perfil">
+                        <h5 class="card-title fs-4 mb-4 text-center" id="sobre-mim-name">Luiz Eduardo Junqueira Santos</h5>
+                        <p class="card-text card-text-sobre-mim">Bom, agora vou me descrever para você me conhecer um pouco melhor 
+                            <!--EMOJI CARINHA SORRINDO COM LINGUA PRA FORA-->. Tenho 25 anos e sou graduado em Psicologia
+                            desde 2021. Me interessei pela programação no final de 2020 e logo me apaixonei pela área, pois gosto
+                            muito de trabalhar com lógica e amo desafios. Estou me especializando em desenvolvimento Front End, realizando cursos 
+                            e praticando em projetos pessoais para aprimorar meu conhecimento na prática. Estou em busca do meu primeiro emprego CLT 
+                            como desenvolvedor Front-End e espero, em breve, conseguir trabalhar com o que amo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--HABILIDADES-->
+    <h2 class="text-home title-section mt-5" id="skills-title" tabindex="-1">Habilidades</h2>
+    <div class="container container-skills">
+        <div class="card mb-1 card-skills">
+            <div class="card-header card-skills-title">
+                Html 5
+            </div>
+            <div class="card-body card-body-standard card-body-skill">
+                <div class="icon-skill"><i class="fa-brands fa-brands-skill fa-html5"></i></div>
+                <div class="p-skill"><p class="paragraph descricao">Utilizo Html em toda a estruturação de todos os meus projetos front-end.</p></div>
+            </div>
+        </div>
+        <div class="card mb-1 card-skills">
+            <div class="card-header card-skills-title"> 
+                Css 3
+            </div>
+            <div class="card-body card-body-standard card-body-skill">
+                <div class="icon-skill"><i class="fa-brands fa-brands-skill fa-css3-alt"></i></div>
+                <div class="p-skill"><p class="paragraph descricao">O Css foi utilizado na estilização de todos os meus projetos. Além do css puto, utilizo também o Bootstrap como framework para acelerar meu trabalho.</p></div>
+            </div>
+        </div>
+        <div class="card mb-1 card-skills">
+            <div class="card-header card-skills-title">
+                JavaScript
+            </div>
+            <div class="card-body card-body-standard card-body-skill">
+                <div class="icon-skill"><i class="fa-brands fa-brands-skill fa-js"></i></div>
+                <div class="p-skill"><p class="paragraph descricao">JavaScript, além de ser a linguagem que me fez apaixonar por programação, é utilizada nos meus projetos, com o intuito de criar mais interação do usuário com a página e facilitar sua experiência.</p></div>
+            </div>
+        </div>
+        <div class="card mb-1 card-skills">
+            <div class="card-header card-skills-title">
+                Sass
+            </div>
+            <div class="card-body card-body-standard card-body-skill">
+                <div class="icon-skill"><i class="fa-brands fa-brands-skill fa-sass"></i></div>
+                <div class="p-skill"><p class="paragraph descricao">Utilizo o Sass para acelerar o processo de estilização dos meus projetos. Além do Sass, utilizo o FrameWork BootStrap, que facilita ainda mais o processo.</p></div>
+            </div>
+        </div>
+    </div>
+
+    <!--PROJETOS-->
+    <h2 class="text-home title-section mt-5" id="projects-title" tabindex="-1">Projetos</h2>
+    <div class="container container-projects">
+        <div class="card mx-4 mb-3">
+            <img src="../image/EM PROCESSO.jpg" class="card-img-top" alt="imagem-projeto-em-processo">
+            <div class="card-body card-body-standard">
+                <h5 class="card-title text-center card-title-projects">Site de obras de arte</h5>
+                <p class="card-text descricao descricao-projeto">Nesse projeto, você encontrará algumas das principais obras artísticas de diferentes épocas literárias, assim como as descrições das obras.</p>
+            </div>
+        </div>
+        <div class="card mx-4 mb-3">
+            <img src="../image/EM PROCESSO.jpg" class="card-img-top" alt="imagem-projeto-em-processo">
+            <div class="card-body card-body-standard">
+                <h5 class="card-title text-center card-title-projects">Site de jogos</h5>
+                <p class="card-text descricao descricao-projeto">Nesse projeto, você poderá selecionar e jogar os jogos que eu desenvolvi utilizando minhas habilidades em JavaScript.</p>
+            </div>
+        </div>
+        <div class="card mx-4">
+            <img src="../image/EM PROCESSO.jpg" class="card-img-top" alt="imagem-projeto-em-processo">
+            <div class="card-body card-body-standard">
+                <h5 class="card-title text-center card-title-projects">Site da escola: Hogwarts</h5>
+                <p class="card-text descricao descricao-projeto">Nesse projeto, você se sentirá como um colega de Harry Potter. No site, você encontrará informações sobre Hogwarts, regras da escola e até mesmo o cronograma de aulas e jogos de quadriball.</p>
+            </div>
+        </div>
+    </div>
+
+    <!--FOOTER-->
+    <footer class="pt-3 pb-2" id="footer">
+        <p class="paragraph-footer mb-0"> <i class="fa-regular fa-copyright"></i> Luiz Santos</p>
+    </footer>
+</body>
+</html>
